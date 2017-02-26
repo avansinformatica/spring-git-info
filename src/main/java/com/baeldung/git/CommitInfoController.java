@@ -10,22 +10,22 @@ import java.util.Map;
 @RestController
 public class CommitInfoController {
 
-//    @Value("${git.commit.time}")
+    @Value("${git.commit.time}")
     private String commitMessage;
 
-//    @Value("${git.branch}")
+    @Value("${git.branch}")
     private String branch;
 
-//    @Value("${git.remote.origin.url}")
+    @Value("${git.remote.origin.url}")
     private String remoteOriginUrl;
 
-//    @Value("${git.commit.id}")
+    @Value("${git.commit.id}")
     private String commitId;
 
-//    @Value("${git.commit.user.name}")
+    @Value("${git.commit.user.name}")
     private String gitUser;
 
-//    @Value("${info.project.artifact}")
+    @Value("${info.project.artifact}")
     private String projectArtifact;
 
     @RequestMapping("/commitId")
