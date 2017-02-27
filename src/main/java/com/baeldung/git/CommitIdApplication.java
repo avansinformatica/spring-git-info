@@ -15,6 +15,8 @@ public class CommitIdApplication {
 	@Bean
 	public static PropertySourcesPlaceholderConfigurer placeholderConfigurer() {
 		PropertySourcesPlaceholderConfigurer c = new PropertySourcesPlaceholderConfigurer();
+
+		// These properties can also be set in the pom.xml file
 		c.setLocation(new ClassPathResource("git.properties"));
 		c.setIgnoreResourceNotFound(false);
 		c.setIgnoreUnresolvablePlaceholders(false);

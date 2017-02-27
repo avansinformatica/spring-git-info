@@ -121,16 +121,18 @@
 						<!-- <excludeProperty>git.user.*</excludeProperty> -->
 					<!--</excludeProperties>-->
 					<includeOnlyProperties>
+						<includeOnlyProperty>^git.branch$</includeOnlyProperty>
+						<includeOnlyProperty>^git.tags$</includeOnlyProperty>
 						<includeOnlyProperty>^git.commit.id.full$</includeOnlyProperty>
 						<includeOnlyProperty>^git.commit.user.name$</includeOnlyProperty>
-						<includeOnlyProperty>^git.tags$</includeOnlyProperty>
-						<includeOnlyProperty>^git.commit.id.describe$</includeOnlyProperty>
+						<includeOnlyProperty>^git.commit.user.email$</includeOnlyProperty>
 						<includeOnlyProperty>^git.commit.time$</includeOnlyProperty>
+						<includeOnlyProperty>^git.build.time$</includeOnlyProperty>
 						<includeOnlyProperty>^git.commit.id$</includeOnlyProperty>
-						<includeOnlyProperty>^git.branch$</includeOnlyProperty>
+						<includeOnlyProperty>^git.commit.id.describe$</includeOnlyProperty>
+						<includeOnlyProperty>^git.commit.message.full$</includeOnlyProperty>
 					</includeOnlyProperties>
-					<!-- Controls the length of the abbreviated git commit it (git.commit.id.abbrev) -->
-
+					<!-- Controls the length of the abbreviated git commit id (git.commit.id.abbrev) -->
 					<!--<abbrevLength>9</abbrevLength>-->
 					<!-- Formatting date - Java SimpleDateFormat options -->
 					<dateFormat>E dd M yyyy HH:mm z</dateFormat>
