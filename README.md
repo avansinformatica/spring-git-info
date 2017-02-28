@@ -11,3 +11,6 @@ Referenced articles:
 --------------------
 - [maven-git-commit-id-plugin](https://github.com/ktoso/maven-git-commit-id-plugin)
 - [Baeldung git information](http://www.baeldung.com/spring-git-information)
+
+Git repo's on Heroku are a little different:
+- [See this addition](http://mrdonbrown.blogspot.nl/2013/01/builds-that-use-git-info-on-heroku.html)
